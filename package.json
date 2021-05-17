@@ -4,12 +4,22 @@
   "description": "Povinný úkol pro kurz Staň se kóderkou od Czechitas.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreaHandlova/PROJEKT-Penzion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndreaHandlova/PROJEKT-Penzion/issues"
+  },
+  "homepage": "https://github.com/AndreaHandlova/PROJEKT-Penzion#readme"
 }
